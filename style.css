@@ -1,0 +1,28 @@
+.div-principal {
+    border: 2px solid black;
+    border-radius: 20px;
+    padding-bottom: 30px;
+    padding-right: 10px;
+    padding-left: 10px;
+    width: fit-content;
+}
+input {
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 5px;
+}
+input:focus {
+    background: rgb(0, 0, 0);
+    color: white;
+}
+#btn-enviar {
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 15px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+#btn-enviar:hover {
+    background-color: rgb(46, 46, 46);
+}
