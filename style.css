@@ -12,10 +12,14 @@ input {
     padding: 5px;
 }
 input:focus {
-    background: rgb(0, 0, 0);
+    background: rgb(65, 65, 65);
     color: white;
 }
-#btn-enviar {
+#imagen-peso {
+    width: 80px;
+    height: 200px;
+}
+.btn-accion {
     font-size: 20px;
     padding: 10px;
     border-radius: 15px;
@@ -23,6 +27,16 @@ input:focus {
     background-color: rgb(0, 0, 0);
     text-decoration: none;
 }
+.btn-accion.deshabilitado {
+    pointer-events: none;
+    opacity: 0.5;
+}
 #btn-enviar:hover {
     background-color: rgb(46, 46, 46);
+}
+#btn-eliminar {
+    background-color: red;
+}
+#btn-eliminar:hover {
+    background-color: rgb(255, 70, 70);
 }
